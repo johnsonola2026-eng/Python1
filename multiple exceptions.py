@@ -1,10 +1,10 @@
 try:
-    num1, num=eval(input("enter two numbers, separated by a comma:"))
+    num1, num2=eval(input("enter two numbers, separated by a comma:"))
     result=num1/num2
     print("result is",result)
-except zerodivisionerror:
+except ZeroDivisionError:
  print("division by zero is error!!")
-except syntaxerror:
+except SyntaxError:
  print("comma is missing. Enter numbers separated by a comma like this 1, 2")
 except:
  print("wrong input")
