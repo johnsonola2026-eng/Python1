@@ -1,2 +1,38 @@
-print("I present the months of the year")
-print("january, feburary, march, april, may, june, july, august, september, october, november, december")
+import datetime
+jan=datetime
+jan=1
+print("jan")
+feb=datetime
+feb=2
+print("feb")
+mar=datetime
+mar=3
+print("mar")
+apr=datetime
+apr=4
+print("apr")
+may=datetime
+may=5
+print("may")
+jun=datetime
+jun=6
+print("jun")
+jul=datetime
+jul=7
+jul=("jul")
+aug=datetime
+aug=8
+print("aug")
+sep=datetime
+sep=9
+print("sep")
+oct=datetime
+oct=10
+print("oct")
+nov=datetime
+nov=11
+print("nov")
+dec=datetime
+dec=12
+print("dec")
+print("these are the months of the year")
