@@ -10,4 +10,4 @@ stocks=['reliance','infosys','tcs']
 prices=[2175,1127,2750]
 new:dict{stocks: prices for stocks,
          prices in zip(stocks,prices)}
-print('\n{}'.format(new_dict))
+print('\n{}'.format("new_dict"))
