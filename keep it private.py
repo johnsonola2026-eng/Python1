@@ -6,4 +6,3 @@ class myclass:
             print("private variablevalue:",myclass.__privatevar)
 foo=myclass()
 foo.hello()
-foo.__privmeth
