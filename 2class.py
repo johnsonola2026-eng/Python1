@@ -1,14 +1,16 @@
 class clock:
-    tick=1
-    tock=2
-    tuck=3
-    ding=4
-    ping=5
-    ring=6
-    beep=7
-    tack=8
-    trick=9
-    tack=10
-    tink=11
-    wake_up=12
-input(print("1,2,3,4,5,6,7,8,9,10,11,12 what time do you want to set for you sleep"))
+    {'1':'tick',
+     '2':'tock',
+     '3':'tuck',
+     '4':'ding',
+     '5':'ping',
+     '6':'ring',
+     '7':'beep',
+     '8':'tack',
+     '9':'trick',
+     '10':'tack',
+     '11':'tink',
+     '12':'wake_up'}
+for i in range(1,12):
+    if i == 12:
+        input(print("what time do you want to set for your sleep?"))
