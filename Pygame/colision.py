@@ -3,7 +3,7 @@ import random
 SCREEN_WIDTH,SCREEN_HEIGHT=400,500
 MOVEMENT_SPEED=5
 pygame.init()
-background_image=pygame.transform.scale(pygame.image.load("R.png"),
+background_image=pygame.transform.scale(pygame.image.load('7pDoP2C.png'),
                                         (SCREEN_WIDTH,SCREEN_HEIGHT))
 
 class sprite(pygame.sprite.Sprite):
