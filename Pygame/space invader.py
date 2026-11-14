@@ -20,6 +20,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 background = pygame.image.load('SPACE.jpg')
 
 pygame.display.set_caption("Space Invader")
+
 icon = pygame.image.load('UFO.jpg')
 pygame.display.set_icon(icon)
 
