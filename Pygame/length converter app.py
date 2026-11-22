@@ -12,6 +12,8 @@ def convert_inches():
         return
     centimeters = inches * 2.54
     result_label.config(text=f"{inches:g} inches = {centimeters:g} centimeters")
+
+    
 Label(window, text="Inches", font=("Arial", 12)).pack(pady=(30, 5))
 inches_entry = Entry(window, width=20)
 inches_entry.pack()
