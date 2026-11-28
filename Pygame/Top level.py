@@ -1,0 +1,16 @@
+from tkinter import *
+window=Tk()
+window.geometry('400x300')
+window.title('Main')
+def topwin():
+    top=Toplevel()
+    top.geometry('180x100')
+    top.title('TopLevel')
+    l2=Label(top,text='This Is The TopLevel')
+    l2.pack()
+    top.mainloop()
+l=Label(window,text='This Is The MainWindow')
+btn=Button(window,text='Click Here To Open Another Window',command=topwin)
+btn.pack()
+l.pack()
+l.mainloop()
